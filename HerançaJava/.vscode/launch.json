@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Teste",
+            "request": "launch",
+            "mainClass": "Teste",
+            "projectName": "HerançaJava_11782be0"
+        },
+        {
+            "type": "java",
+            "name": "Launch testeFuncionario",
+            "request": "launch",
+            "mainClass": "testeFuncionario",
+            "projectName": "HerançaJava_11782be0"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-chrome",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
