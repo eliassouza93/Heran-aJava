@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch TesteReferencias",
+            "request": "launch",
+            "mainClass": "TesteReferencias",
+            "projectName": "HerançaJava_f53c66f1"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteGerente",
+            "request": "launch",
+            "mainClass": "TesteGerente",
+            "projectName": "HerançaJava_f53c66f1"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-chrome",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
