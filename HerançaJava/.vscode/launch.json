@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TesteReferencias",
+            "request": "launch",
+            "mainClass": "TesteReferencias",
+            "projectName": "HerançaJava_11782be0"
+        },
+        {
+            "type": "java",
             "name": "Launch Teste",
             "request": "launch",
             "mainClass": "Teste",

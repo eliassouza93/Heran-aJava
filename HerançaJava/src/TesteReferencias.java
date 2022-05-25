@@ -2,12 +2,22 @@ import javax.swing.plaf.synth.SynthScrollBarUI;
 
 public class TesteReferencias {
     public static void main(String[] args) {
+  
+      
 
-        Funcionario g1 = new Gerente();
-        g1.setNome("Joao");
+        ControleBonificacao controle = new ControleBonificacao();
+        
+        Funcionario d = new Designer();
+     
+        controle.registra(d);
+        d.setSalario(2000.0);
+        System.out.println(controle.getSoma());
 
-        String nome = g1.getNome();
+        
 
-        System.out.println(nome);
+
+        
+
+        
     }
 }
